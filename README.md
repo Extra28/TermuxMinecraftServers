@@ -8,8 +8,8 @@ A documentation of how I made a bunch of android phones run termux concurrently 
 sudo ssh -i ./id_rsa -p 8022 (insert IP here)
 
 to do list plan!:
-* set up prometheus on all phones, along with a script to run termux-battery-status and have it set up on a http localhost so that it can be read by prometheus.
-* grafana to record all these metrics
+* set up prometheus on all phones, along with a script to run termux-battery-status and have it set up on a http localhost so that it can be read by prometheus. (1/3 phones done! still need to set up node)
+* grafana to record all these metrics (grafana is on local, half done!)
 * python script using kasa to make it so that if battery is above 80 percent, turn off charger and if below 25 then turn on charger. must get tplink power strip first.
 * set up mc server on one phone to ensure it works
 * then figure out how to link the 3 phones tgt so they run in a cluster and that if one phone goes down the server will still run without interruptions. also if phone goes down then send me an email notification?
