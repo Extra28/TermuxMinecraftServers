@@ -11,6 +11,7 @@ sudo ssh -i ./id_rsa -p 8022 (insert IP here)
 
 * prometheus port is 9090
 * node exporter port is 9100
+* for node exporter, as long as collecting timex and selinux are disabled (--no-collector.timex and --no-collector.selinux respectively), node exporter will not crash. stats returned might be incomplete, but better than nothing
 
 to do list plan!:
 * set up prometheus on all phones, along with a script to run termux-battery-status and have it set up on a http localhost so that it can be read by prometheus. (1/3 phones done! still need to set up node)
