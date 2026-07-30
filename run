@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+exec $HOME/prometheus/prometheus --config.file=$HOME/prometheus/prometheus.yml --storage.tsdb.path $HOME/prometheus/ --storage.tsdb.retention.time 14d 2>&1
