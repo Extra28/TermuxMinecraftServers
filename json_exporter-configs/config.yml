@@ -1,0 +1,52 @@
+modules:
+  default:
+    metrics:
+    - name: termux_battery_present
+      type: value
+      help: Whether battery is present (1=present)
+      path: '{.present}'
+    
+    - name: termux_battery_temperature
+      type: value
+      help: Battery temperature in celsius
+      path: '{.temperature}'
+    
+    - name: termux_battery_voltage
+      type: value
+      help: Battery voltage in millivolts
+      path: '{.voltage}'
+    
+    - name: termux_battery_current
+      type: value
+      help: Battery current in milliamps
+      path: '{.current}'
+    
+    - name: termux_battery_current_average
+      type: value
+      help: Battery current average
+      path: '{.current_average}'
+    
+    - name: termux_battery_percentage
+      type: value
+      help: Battery percentage (0-100)
+      path: '{.percentage}'
+    
+    - name: termux_battery_level
+      type: value
+      help: Battery level
+      path: '{.level}'
+    
+    - name: termux_battery_scale
+      type: value
+      help: Battery scale
+      path: '{.scale}'
+    
+    - name: termux_battery_charge_counter
+      type: value
+      help: Battery charge counter
+      path: '{.charge_counter}'
+    
+    - name: termux_battery_cycle
+      type: value
+      help: Battery cycle count
+      path: '{.cycle}'
