@@ -1,11 +1,16 @@
 # TermuxMinecraftServers
 A documentation of how I made a bunch of android phones run termux concurrently to create a minecraft server cluster
 
+notes:
+
 * phone 1 ip: 192.168.50.215
 * phone 2 ip: 192.168.50.184
 * phone 3 ip: 192.168.50.126
 * command to ssh cuz termux openssh uses port 8022 for some reason:
 sudo ssh -i ./id_rsa -p 8022 (insert IP here)
+
+* prometheus port is 9090
+* node exporter port is 9100
 
 to do list plan!:
 * set up prometheus on all phones, along with a script to run termux-battery-status and have it set up on a http localhost so that it can be read by prometheus. (1/3 phones done! still need to set up node)
