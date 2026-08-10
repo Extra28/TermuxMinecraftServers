@@ -1,1 +1,1 @@
-*/5 * * * * ~/.shortcuts/battery-log.sh
+*/1 * * * * ~/.shortcuts/battery-log.sh
