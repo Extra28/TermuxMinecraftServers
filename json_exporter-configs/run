@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+cd /data/data/com.termux/files/home/json_exporter
+exec ./json_exporter --web.listen-address=:7979
