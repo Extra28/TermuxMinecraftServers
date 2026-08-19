@@ -16,6 +16,6 @@ sudo ssh -i ./id_rsa -p 8022 (insert IP here)
 to do list plan!:
 * set up prometheus on all phones, along with a script to run termux-battery-status and have it set up on a http localhost so that it can be read by prometheus. done!
 * grafana to record all these metrics. done!
-* python script using kasa to make it so that if battery is above 80 percent, turn off charger and if below 25 then turn on charger.
-* set up mc server on one phone to ensure it works
-* then figure out how to link the 3 phones tgt so they run in a cluster and that if one phone goes down the server will still run without interruptions. also if phone goes down then send me an email notification?
+* so almost everything about the python kasa library is vibecoded and sometimes their own examples dont work as intended, i might just end up writing somethig myself if i cant figure something out.
+* set up mc server on one phone to ensure it works 
+* link 3 phones tgt using velocity and maybe multipaper, to allow for horizontal scaling, however no mods. alternatively, use regular paper but that means no horizontal scaling, aka defeating the whole purpose of this project. i guess i could learn java or something???? make a multipaper thing but for fabric????? to allow for mods??? feels like more work than whats worth but sigh ok maybe i shld.
