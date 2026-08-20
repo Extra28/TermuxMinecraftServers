@@ -18,4 +18,4 @@ to do list plan!:
 * grafana to record all these metrics. done!
 * so almost everything about the python kasa library is vibecoded and sometimes their own examples dont work as intended, i might just end up writing somethig myself if i cant figure something out.
 * set up mc server on one phone to ensure it works 
-* link 3 phones tgt using velocity and maybe multipaper, to allow for horizontal scaling, however no mods. alternatively, use regular paper but that means no horizontal scaling, aka defeating the whole purpose of this project. i guess i could learn java or something???? make a multipaper thing but for fabric????? to allow for mods??? feels like more work than whats worth but sigh ok maybe i shld.
+* link 3 phones tgt using velocity and maybe multipaper, to allow for horizontal scaling, no mods and only plugins.
