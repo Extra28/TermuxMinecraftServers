@@ -19,3 +19,4 @@ to do list plan!:
 * so almost everything about the python kasa library is vibecoded and sometimes their own examples dont work as intended, i might just end up writing somethig myself if i cant figure something out.
 * set up mc server on one phone to ensure it works 
 * link 3 phones tgt using velocity and maybe multipaper, to allow for horizontal scaling, no mods and only plugins.
+* must set up an ubuntu proot-distro or else java will run terribly and performance is dogshit
