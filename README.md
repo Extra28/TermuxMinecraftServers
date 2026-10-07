@@ -20,3 +20,4 @@ to do list plan!:
 * set up mc server on one phone to ensure it works 
 * link 3 phones tgt using velocity and maybe multipaper, to allow for horizontal scaling, no mods and only plugins.
 * must set up an ubuntu proot-distro or else java will run terribly and performance is dogshit
+* termux-chroot when running ngrok cuz it wont work otherwise (IDK WHY)
